@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="app.js">
+    </script>
+</head>
+
+<body class="container-fluid" style="background-image: url(https://goo.gl/Yp7pnW);  background-repeat:no-repeat;">
+    <!-- Main -->
+    <div class="row">
+
+        <div class="col-12 text-center" style="display:inline-block; top:-1em; position:relative;">
+            <span class="t1">T</span>
+            <span class="w">w</span>
+            <span class="i">i</span>
+            <span class="t">t</span>
+            <span class="c">c</span>
+            <span class="h">h</span>
+        </div>
+
+
+        <article class="icon">
+            <div class="rect one" onclick="allChannels()">
+                <div class="dot"></div>
+                <span>ALL</span>
+            </div>
+            <div class="rect tow" onclick="online()">
+                <div class="dot"></div>
+                <span>Online</span>
+            </div>
+            <div class="rect three" onclick="offline()">
+                <div class="dot"></div>
+                <span>Offline</span>
+            </div>
+        </article>
+
+
+
+        <article class="hide col-12">
+            <strong> You can choose !</strong>
+            <i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
+            <span class="sr-only"></span>
+        </article>
+
+        <section class="show">
+
+            <!-- Data Here -->
+
+        </section>
+
+
+    </div>
+    <footer class="footer" align="center">
+        <div class="container">
+            <span id="footerText">developed by Saad HARAKAT for free code camp</span>
+            <ul class="list-inline">
+                <li class="list-inline-item">
+                    <a href="https://twitter.com/saadharakat" class="fa fa-twitter" target="_blank"></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://github.com/Sadhr" class="fa fa-github" target="_blank"></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://www.freecodecamp.com/sadhr" class="fa fa-fire" target="_blank"></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://codepen.io/SadHR/" class="fa fa-codepen" target="_blank"></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://www.linkedin.com/in/saad-harakat-b1a99080/" class="fa fa-linkedin" target=_blank></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <!-- End Main -->
+</body>
+
+</html>

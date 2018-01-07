@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Lobster|Pacifico|Shadows+Into+Light');
+.row {
+    padding: 1em;
+}
+
+.imgStyle {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 77%;
+    left: -1.5%;
+}
+
+h3 {
+    position: absolute;
+    top: 19.5px;
+}
+
+#status {
+    position: absolute;
+    color: white;
+    top: 59px;
+    left: 23px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1em;
+}
+
+#views {
+    position: absolute;
+    color: black;
+    top: 256px;
+    left: 106px;
+}
+
+#followers {
+    position: absolute;
+    color: black;
+    top: 256px;
+    left: 201px;
+}
+
+#followersOnline {
+    position: absolute;
+    color: black;
+    top: 256px;
+    left: 106px;
+}
+
+h2 a {
+    color: #F44336;
+}
+
+h2 a:hover {
+    color: #8bc34a;
+    text-decoration: none;
+}
+
+a i {
+    color: white;
+}
+
+.play:hover {
+    opacity: 0.7;
+    text-shadow: 2px 4px 3px rgb(121, 181, 39);
+}
+
+.well {
+    background: green;
+}
+
+.hero {
+    position: relative;
+    height: 15.5rem;
+    width: 350px;
+    float: left;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 3px 3px 6px 2px #546e7a;
+    border-top-left-radius: 4.5em;
+    border-bottom-right-radius: 4.5em;
+    margin: 1.9em;
+    margin-bottom: 2em;
+}
+
+.iconPosition {
+    position: absolute;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: bottom;
+    top: 36% !important;
+    left: 40%;
+}
+
+.xPadding {
+    float: left !important;
+}
+
+.hide {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+}
+
+
+/* Menu style */
+
+.icon {
+    position: fixed;
+    right: -15px;
+}
+
+.rect {
+    color: #fff;
+    cursor: pointer;
+    height: 25px;
+    width: 110px;
+    padding-top: 5px;
+    padding-left: 5px;
+    position: absolute;
+    right: -70px;
+    transition: all 0.5s;
+    border-radius: 1em;
+}
+
+.rect:hover {
+    right: 14px;
+}
+
+.rect span {
+    position: absolute;
+    top: -2.5px;
+    right: 9px;
+    font-size: 1.2em;
+    float: right;
+}
+
+.rect.active {
+    right: 10px;
+}
+
+.one {
+    background: #000;
+}
+
+.tow {
+    top: 29px;
+    background: #388e3c;
+}
+
+.three {
+    top: 58px;
+    background: #e53935;
+}
+
+.dot {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background: white;
+    border: 1px #fff solid;
+    border-radius: 50%;
+}
+
+.t1 {
+    display: inline-block;
+    font-size: 3em;
+    font-family: -webkit-pictograph;
+    text-shadow: 0px 2px 9px black;
+}
+
+.w {
+    position: relative;
+    display: inline-block;
+    font-size: 6em;
+    font-family: -webkit-pictograph;
+    color: rebeccapurple;
+    transform: rotate(-30deg);
+    text-shadow: 0px 2px 9px black;
+}
+
+.i {
+    display: inline-block;
+    font-size: 3em;
+    font-family: -webkit-pictograph;
+    top: .7em;
+    right: 13em;
+    transform: rotate(180deg);
+    text-shadow: 0px 2px 9px black;
+}
+
+.t {
+    display: inline-block;
+    font-size: 2em;
+    font-family: 'Shadows Into Light', cursive;
+    text-shadow: 0px 2px 9px black;
+}
+
+.c {
+    display: inline-block;
+    font-size: 2em;
+    font-family: 'Indie Flower', cursive;
+    text-shadow: 0px 2px 9px black;
+}
+
+.h {
+    display: inline-block;
+    font-size: 3em;
+    font-family: -webkit-pictograph;
+    text-shadow: 0px 2px 9px black;
+}
+
+footer {
+    padding: 2em;
+    padding-top: 21.5em;
+}
+
+ul {
+    text-shadow: 4px 2px 11px black;
+}
+
+#footerText {
+    font-family: 'Indie Flower', cursive;
+    text-shadow: 4px 2px 11px black;
+    color: white;
+}
+
+strong {
+    font-size: 1.2em;
+    font-family: 'Indie Flower', cursive;
+}
+
+.icon {
+    font-family: 'Indie Flower', cursive;
+}
+
+.hero h2 {
+    font-family: 'Indie Flower', cursive;
+}
+
+@media screen and (max-width: 991px) {
+    .play {
+        font-size: 1em;
+    }
+    .hero {
+        float: left;
+        height: 13.5rem;
+        width: 362px;
+    }
+    .imgStyle {
+        width: 88px;
+        height: 86px;
+    }
+    #views {
+        position: absolute;
+        color: rgb(99, 8, 8);
+        top: 227px;
+        left: 176px;
+    }
+    #followers {
+        position: absolute;
+        color: black;
+        top: 227px;
+        left: 96px;
+    }
+    #followersOnline {
+        position: absolute;
+        color: black;
+        top: 219px;
+        left: 106px;
+    }
+    iconposition {
+        top: 37% !important;
+        left: 37%;
+    }
+    .icon {
+        position: fixed;
+        right: -35px;
+    }
+    .rect {
+        right: -50px;
+    }
+    .rect.active {
+        right: 35px;
+    }
+    .rect:hover {
+        right: 35px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .play {
+        font-size: 1em;
+    }
+    .hero {
+        float: left;
+        height: 13.5rem;
+        width: 280px;
+    }
+    .imgStyle {
+        width: 100px;
+        height: 100px;
+    }
+    #views {
+        position: absolute;
+        color: black;
+        top: 227px;
+        left: 106px;
+    }
+    #followers {
+        position: absolute;
+        color: black;
+        top: 227px;
+        left: 192px;
+    }
+    #followersOnline {
+        position: absolute;
+        color: black;
+        top: 219px;
+        left: 106px;
+    }
+    .rect:hover {
+        right: 33px;
+    }
+}
+
+@media (max-width: 575px) {
+    .play {
+        font-size: 1em;
+    }
+    .hero {
+        height: 18.5rem;
+        width: 480px;
+    }
+    .imgStyle {
+        width: 100px;
+        height: 100px;
+    }
+    #views {
+        position: absolute;
+        color: black;
+        top: 300px;
+        left: 96px;
+    }
+    #followers {
+        position: absolute;
+        color: black;
+        top: 300px;
+        left: 189px;
+    }
+    #followersOnline {
+        position: absolute;
+        color: black;
+        top: 300px;
+        left: 106px;
+    }
+    iconposition {
+        top: 38% !important;
+        left: 43%;
+    }
+    .rect {
+        right: -50px;
+    }
+    .rect:hover {
+        right: 33px;
+    }
+    .rect.active {
+        right: 33px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero {
+        height: 14.5rem;
+        width: 298px;
+    }
+    .play {
+        font-size: 1em;
+    }
+    .imgStyle {
+        width: 100px;
+        height: 100px;
+        top: 165px;
+    }
+    #views {
+        position: absolute;
+        color: black;
+        top: 235px;
+        left: 96px;
+    }
+    #followers {
+        position: absolute;
+        color: black;
+        top: 235px;
+        left: 190px;
+    }
+    #followersOnline {
+        position: absolute;
+        color: black;
+        top: 235px;
+        left: 106px;
+    }
+    iconposition {
+        top: 38%;
+        left: 43%;
+    }
+}
